@@ -55,20 +55,42 @@ const LoginForm = () => {
 );
 };
 
-const Container = { display: "flex", alignItems: "center", justifyContent: "center",
-                    height: "100vh", width: "100%", backgroundColor: "#4070f4",
-                }
+const Container = {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    height: "100vh",
+    width: "100%",
+    backgroundColor: "#4070f4",
+  }
 
-const formContainer = { backgroundColor: "white", maxWidth: "300px", padding: "20px",
-                        width: "100%", borderRadius: "10px", 
-                }
+const formContainer = {
+    backgroundColor: "white",
+    maxWidth: "300px",
+    padding: "20px",
+    width: "100%",
+    borderRadius: "10px",
+    boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+  }
 
-const LinkCon = { textAlign: "center", fontSize: " 0.870em" }
+const LinkCon = {
+    textAlign: "center",
+    fontSize: " 0.870em"
+  }
 
-const ImgStyle = { position: "absolute", display: "flex", backgroundColor: "white",
-                   alignItems: "center", justifyContent: "center", height: "20px",
-                   width: "20px", borderRadius: "50%", objectFit: "cover", top: "50%",
-                   left: "15px", transform: "translateY(-50%)"
-                }
+const ImgStyle = {
+    position: "absolute",
+    display: "flex",
+    backgroundColor: "white",
+    alignItems: "center",
+    justifyContent: "center",
+    height: "20px",
+    width: "20px",
+    borderRadius: "50%",
+    objectFit: "cover",
+    top: "50%",
+    left: "15px",
+    transform: "translateY(-50%)"
+  }
 
 export default LoginForm;
