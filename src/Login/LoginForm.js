@@ -29,7 +29,7 @@ const LoginForm = () => {
             <button style={loginStyle.ButtonStyle} > Login </button>
 
             <div style={LinkCon}>
-            <span> Don't have an account? <a style={{textDecoration: "none"}} href='#'> SignUp </a></span>
+            <span> Don't have an account? <a style={{textDecoration: "none"}} href='#'> Signup </a></span>
             </div>
 
             <div style={loginStyle.LineStyle}>
@@ -61,7 +61,7 @@ const Container = {
     justifyContent: "center",
     height: "100vh",
     width: "100%",
-    backgroundColor: "#4070f4",
+    backgroundColor: "#4682B4",
   }
 
 const formContainer = {

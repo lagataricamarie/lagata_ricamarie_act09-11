@@ -33,6 +33,7 @@ const facebookStyle = {
         justifyContent: "center",
         backgroundColor: "#4267b2",
         color: "white",
+        hover: "rgba(18, 102, 241, 0.5)",
         height: "39px",
         width: "100%",
         margin: "7px 0px",
